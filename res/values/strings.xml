@@ -4,5 +4,12 @@
     <string name="app_name">BMICalcApp</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="my_height_bmi">My Height</string>
+    <string name="my_weight_bmi">My Weight</string>
+    <string name="kgs_mts_bmi">Kgs/Mts</string>
+    <string name="lbs_inch_bmi">Lbs/Inchs</string>
+    <string name="calulate_bmi">Calculate BMI</string>
+    <string name="bmi_text">B.M.I</string>
+    <string name="input_bmi">0.00</string>
 
 </resources>
