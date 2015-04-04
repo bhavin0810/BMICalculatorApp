@@ -56,6 +56,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
+        <RadioGroup
+            android:id="@+id/grpRadioButton"
+            android:orientation="horizontal"
+            android:checkedButton="@+id/lbsinchRadioButton" >
+
         <RadioButton
             android:id="@+id/kgsmtsRadioButton"
             android:layout_width="wrap_content"
@@ -67,7 +72,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbs_inch_bmi" />
-
+        
+		</RadioGroup>
+		
     </TableRow>
 
     <TableRow
@@ -80,6 +87,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/calulate_bmi" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_bmi" />
 
     </TableRow>
 
@@ -95,10 +108,11 @@
             android:text="@string/bmi_text" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/bmiEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:enabled="false"
             android:inputType="numberDecimal"
             android:text="@string/input_bmi" />
 
@@ -108,6 +122,103 @@
         android:id="@+id/tableRow5"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/bmiScaleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_bmi"
+            android:text="@string/bmi_scale" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_bmi"
+            android:text="@string/bmi_result" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/underWeightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/underweight_bmi" />
+
+        <TextView
+            android:id="@+id/underWeightResultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/undeweight_result_bmi" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/normalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_bmi" />
+
+        <TextView
+            android:id="@+id/normalResultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_result_bmi" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/overWeightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overweight_bmi" />
+
+        <TextView
+            android:id="@+id/overWeightResultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overweight_result_bmi" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/obeseTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obese_bmi" />
+
+        <TextView
+            android:id="@+id/obeseResultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obese_result_bmi" />
 
     </TableRow>
 

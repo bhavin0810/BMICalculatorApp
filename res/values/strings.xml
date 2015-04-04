@@ -11,5 +11,16 @@
     <string name="calulate_bmi">Calculate BMI</string>
     <string name="bmi_text">B.M.I</string>
     <string name="input_bmi">0.00</string>
+    <string name="bmi_scale">BMI SCALE</string>
+    <string name="bmi_result">RESULT</string>
+    <string name="underweight_bmi">Underweight</string>
+    <string name="undeweight_result_bmi">less then 18.5</string>
+    <string name="normal_bmi">Normal</string>
+    <string name="normal_result_bmi">between 18.5 and 24.9</string>
+    <string name="overweight_bmi">Overweight</string>
+    <string name="overweight_result_bmi">bertween 25 and 29.9</string>
+    <string name="obese_bmi">Obese</string>
+    <string name="obese_result_bmi">"30 or greater "</string>
+    <string name="reset_bmi">RESET</string>
 
 </resources>
