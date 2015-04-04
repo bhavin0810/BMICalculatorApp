@@ -62,6 +62,7 @@ public class MainActivity extends ActionBarActivity {
             	heightText.setText("0.00");
             	weightText.setText("0.00");
             	bmiText.setText("0.00");
+            	bmiResultText.setText("");
             	
             	//Set the Text Color to Black
             	underWeightText.setTextColor(Color.parseColor("#000000"));
