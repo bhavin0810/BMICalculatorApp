@@ -359,12 +359,13 @@ int id action_menu_presenter 0x7f090006
 int id action_mode_bar 0x7f09002e
 int id action_mode_bar_stub 0x7f09002d
 int id action_mode_close_button 0x7f090020
-int id action_settings 0x7f090060
+int id action_settings 0x7f090062
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090014
 int id beginning 0x7f09001b
 int id bmiButton 0x7f09004b
 int id bmiEditText 0x7f09004f
+int id bmiResultEditText 0x7f090061
 int id bmiScaleTextView 0x7f090052
 int id bmiTextView 0x7f09004e
 int id checkbox 0x7f090029
@@ -427,6 +428,7 @@ int id tableLayout 0x7f09003f
 int id tableRow0 0x7f090040
 int id tableRow1 0x7f090043
 int id tableRow10 0x7f09005d
+int id tableRow11 0x7f090060
 int id tableRow2 0x7f090046
 int id tableRow3 0x7f09004a
 int id tableRow4 0x7f09004d
